@@ -12,6 +12,8 @@ app.config["BLOGGING_SITENAME"] = "My Site"
 app.config["BLOGGING_PLUGINS"] = ["blogging_plugins.summary",
                                   "blogging_plugins.tag_cloud"]
 
+app.config["BLOGGING_SUMMARY_LENGTH"] = 180
+
 # extensions
 engine = create_engine('sqlite:////tmp/blog.db')
 meta = MetaData()

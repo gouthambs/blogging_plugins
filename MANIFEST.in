@@ -1,0 +1,7 @@
+include README.md
+include README.rst
+include Requirements.txt
+recursive-include blogging_plugins *.md
+recursive-include blogging_plugins *.rst
+recursive-include tests *
+recursive-exclude docs *
